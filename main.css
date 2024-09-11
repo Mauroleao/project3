@@ -8,12 +8,12 @@ body {
     background-color: #c15f41;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: #c15f41;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
     color: #fff;
@@ -28,10 +28,22 @@ body {
     font-family: Pacifico, cursive;
 }
 
-.section-title span {
+
+
+#sobre-o-restaurante, #cardapio{
+    background-color: #ffeae6;
+}
+
+.text-colored {
     color: #c15f41;
 }
 
-#sobre-o-restaurante {
-    background-color: #ffeae6;
+.nav-cardapio .nav-link.active {
+    background-color: #c15f41;
+    color: #fff;
+
+}
+
+.nav-cardapio .nav-link.nav-link:houver {
+    color: #c15f41;
 }
